@@ -21,7 +21,7 @@ const About: React.FC = () => {
           <Divider />
         </div>
 
-        <h2 className="font-serif text-4xl font-bold text-center mb-12 text-brand-gold uppercase tracking-[0.2em]">
+        <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12 text-brand-gold uppercase tracking-[0.12em] md:tracking-[0.2em]">
           {translations.about_title[language]}
         </h2>
         
