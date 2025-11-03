@@ -27,7 +27,7 @@ const About: React.FC = () => {
         
         <div className="max-w-[92rem] mx-auto">
           <div className="bg-brand-dark/30 border-2 border-brand-gold/20 rounded-xl p-8 md:p-12 transition-all duration-300 hover:shadow-gold-glow hover:border-brand-gold">
-            <p className="text-2xl md:text-3xl leading-[2.2] text-brand-beige text-justify">
+            <p className="text-base sm:text-lg md:text-2xl lg:text-3xl leading-snug sm:leading-relaxed md:leading-[2.2] text-brand-beige text-justify">
               {translations.about_text[language]}
             </p>
           </div>
