@@ -25,12 +25,10 @@ const Contact: React.FC = () => {
         </h2>
         
         <div className="max-w-3xl mx-auto">
-          <form 
-            action="mailto:unacc-know@protonmail.com"
-            method="POST"
-            encType="text/plain"
-            className="space-y-6"
-          >
+<form
+  action="https://formspree.io/f/xovpzewa"
+  method="POST"
+>
             <div>
               <label htmlFor="name" className="sr-only">{translations.contact_form_name[language]}</label>
               <input
