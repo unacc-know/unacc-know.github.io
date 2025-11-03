@@ -40,6 +40,7 @@ const App: React.FC = () => {
           <div ref={principlesRef}><Principles /></div>
           <div ref={researchRef}><Research /></div>
           <div ref={contactRef}><Contact /></div>
+            </div>
         </main>
         <Footer />
       </div>
