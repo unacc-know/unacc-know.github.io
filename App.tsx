@@ -34,6 +34,7 @@ const App: React.FC = () => {
       <div className="bg-brand-dark-secondary font-sans text-brand-beige min-h-screen">
         <Header navLinks={navLinks} onNavLinkClick={scrollToSection} />
         <main>
+          <div className="mx-auto max-w-screen-lg px-4 sm:px-6 md:px-8">
           <Hero />
           <div ref={aboutRef}><About /></div>
           <div ref={principlesRef}><Principles /></div>
