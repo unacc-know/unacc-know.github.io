@@ -19,7 +19,7 @@ const Research: React.FC = () => {
         <div className="w-full max-w-[92rem] mx-auto mb-16">
           <Divider />
         </div>
-        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-bold uppercase tracking-widest text-brand-gold text-center mb-8">
+        <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12 text-brand-gold uppercase tracking-[0.12em] md:tracking-[0.2em]">
           {translations.research_title[language]}
         </h2>
         
