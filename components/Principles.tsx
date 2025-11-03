@@ -50,7 +50,7 @@ const Principles: React.FC = () => {
         <div className="w-full max-w-[92rem] mx-auto mb-16">
           <Divider />
         </div>
-        <h2 className="font-serif text-4xl font-bold text-center mb-12 text-brand-gold uppercase tracking-[0.2em]">
+        <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12 text-brand-gold uppercase tracking-[0.12em] md:tracking-[0.2em]">
           {translations.principles_title[language]}
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-[92rem] mx-auto">
